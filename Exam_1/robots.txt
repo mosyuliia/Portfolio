@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mosyuliia.github.io/EXAM/Exam_1/sitemap.xml
