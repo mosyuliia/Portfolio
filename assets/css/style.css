@@ -78,7 +78,7 @@
   }
 
 
-* {
+*, *:before, *:after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -90,6 +90,11 @@ html, body {
     font-family: 'Lato', sans-serif;
 }
 
+img {
+    vertical-align: top;
+    width: 100%;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -98,13 +103,10 @@ html, body {
 
 .flex_box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.works {
-    
-}
+
 
 h1 {
     font-size: 36px;
@@ -127,7 +129,7 @@ ul {
     list-style: none;
     color: #fff;
     font-size: 26px;
-    text-align: center;
+    text-align: left;
 }
 
 .number_work {
@@ -146,12 +148,14 @@ a {
 }
 
 body {
-    background-position: center;
     background: linear-gradient(38deg, #00c5cc, #8b0bb3, #af0a4f);
 }
+.portfolio {
+    width: 100%;
+    }
 
 li {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 
